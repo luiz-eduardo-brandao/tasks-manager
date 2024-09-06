@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\edu\\projects\\TasksManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\mappings\\taskmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\mappings\\taskmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\services\\tasksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\services\\tasksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\repositories\\projectsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\repositories\\projectsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\repositories\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\repositories\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\services\\projectsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\services\\projectsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\mappings\\projetcmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\mappings\\projetcmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectsRepository.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Repositories\\ProjectsRepository.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Repositories\\ProjectsRepository.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Repositories\\ProjectsRepository.cs",
+              "RelativeToolTip": "TasksManager.API\\Repositories\\ProjectsRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T02:15:19.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "TasksManager.API\\Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwFcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T02:08:13.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TasksManager.API\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T02:07:38.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskModel.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Models\\TaskModel.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Models\\TaskModel.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Models\\TaskModel.cs",
+              "RelativeToolTip": "TasksManager.API\\Models\\TaskModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T02:03:12.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskMapping.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Mappings\\TaskMapping.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Mappings\\TaskMapping.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Mappings\\TaskMapping.cs",
+              "RelativeToolTip": "TasksManager.API\\Mappings\\TaskMapping.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwCkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T01:56:11.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjetcMapping.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Mappings\\ProjetcMapping.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Mappings\\ProjetcMapping.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Mappings\\ProjetcMapping.cs",
+              "RelativeToolTip": "TasksManager.API\\Mappings\\ProjetcMapping.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T01:56:07.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProjectsService.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Services\\ProjectsService.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Services\\ProjectsService.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Services\\ProjectsService.cs",
+              "RelativeToolTip": "TasksManager.API\\Services\\ProjectsService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T01:55:35.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TasksService.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Services\\TasksService.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Services\\TasksService.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Services\\TasksService.cs",
+              "RelativeToolTip": "TasksManager.API\\Services\\TasksService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T01:55:29.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TasksRepository.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Repositories\\TasksRepository.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Repositories\\TasksRepository.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Repositories\\TasksRepository.cs",
+              "RelativeToolTip": "TasksManager.API\\Repositories\\TasksRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T01:55:26.223Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
