@@ -3,40 +3,56 @@
   "WorkspaceRootPath": "C:\\edu\\projects\\TasksManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\repositories\\projectsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\repositories\\projectsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\repositories\\timetrackerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\repositories\\timetrackerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\services\\tasksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\services\\tasksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\controllers\\timetrackerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\controllers\\timetrackerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\mappings\\taskmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\mappings\\taskmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\services\\timetrackerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\services\\timetrackerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\repositories\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\repositories\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\dtos\\login\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\dtos\\login\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\services\\projectsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\services\\projectsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\services\\interfaces\\itimetrackerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\services\\interfaces\\itimetrackerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\mappings\\projetcmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\mappings\\projetcmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\models\\timetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\models\\timetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\dtos\\timetrackers\\addtimetrackerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\dtos\\timetrackers\\addtimetrackerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\mappings\\timetrackermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\mappings\\timetrackermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|c:\\edu\\projects\\tasksmanager\\tasksmanager.api\\repositories\\interfaces\\itimetrackerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9315ACF-E3DB-4040-AB41-AF1C5D83E341}|TasksManager.API\\TasksManager.API.csproj|solutionrelative:tasksmanager.api\\repositories\\interfaces\\itimetrackerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,124 +62,174 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProjectsRepository.cs",
-              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Repositories\\ProjectsRepository.cs",
-              "RelativeDocumentMoniker": "TasksManager.API\\Repositories\\ProjectsRepository.cs",
-              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Repositories\\ProjectsRepository.cs",
-              "RelativeToolTip": "TasksManager.API\\Repositories\\ProjectsRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TimeTrackersController.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Controllers\\TimeTrackersController.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Controllers\\TimeTrackersController.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Controllers\\TimeTrackersController.cs",
+              "RelativeToolTip": "TasksManager.API\\Controllers\\TimeTrackersController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAgwFwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T02:15:19.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProjectsController.cs",
-              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Controllers\\ProjectsController.cs",
-              "RelativeDocumentMoniker": "TasksManager.API\\Controllers\\ProjectsController.cs",
-              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Controllers\\ProjectsController.cs",
-              "RelativeToolTip": "TasksManager.API\\Controllers\\ProjectsController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwFcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T02:08:13.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TasksController.cs",
-              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Controllers\\TasksController.cs",
-              "RelativeDocumentMoniker": "TasksManager.API\\Controllers\\TasksController.cs",
-              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Controllers\\TasksController.cs",
-              "RelativeToolTip": "TasksManager.API\\Controllers\\TasksController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T02:07:38.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TaskModel.cs",
-              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Models\\TaskModel.cs",
-              "RelativeDocumentMoniker": "TasksManager.API\\Models\\TaskModel.cs",
-              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Models\\TaskModel.cs",
-              "RelativeToolTip": "TasksManager.API\\Models\\TaskModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T02:03:12.934Z",
+              "WhenOpened": "2024-09-09T19:42:31.336Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TaskMapping.cs",
-              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Mappings\\TaskMapping.cs",
-              "RelativeDocumentMoniker": "TasksManager.API\\Mappings\\TaskMapping.cs",
-              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Mappings\\TaskMapping.cs",
-              "RelativeToolTip": "TasksManager.API\\Mappings\\TaskMapping.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCkAAAAuAAAAAAAAAA==",
+              "Title": "TimeTrackerService.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Services\\TimeTrackerService.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Services\\TimeTrackerService.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Services\\TimeTrackerService.cs",
+              "RelativeToolTip": "TasksManager.API\\Services\\TimeTrackerService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T01:56:11.583Z",
+              "WhenOpened": "2024-09-09T19:45:30.896Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProjetcMapping.cs",
-              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Mappings\\ProjetcMapping.cs",
-              "RelativeDocumentMoniker": "TasksManager.API\\Mappings\\ProjetcMapping.cs",
-              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Mappings\\ProjetcMapping.cs",
-              "RelativeToolTip": "TasksManager.API\\Mappings\\ProjetcMapping.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TimeTrackerRepository.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Repositories\\TimeTrackerRepository.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Repositories\\TimeTrackerRepository.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Repositories\\TimeTrackerRepository.cs",
+              "RelativeToolTip": "TasksManager.API\\Repositories\\TimeTrackerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T01:56:07.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProjectsService.cs",
-              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Services\\ProjectsService.cs",
-              "RelativeDocumentMoniker": "TasksManager.API\\Services\\ProjectsService.cs",
-              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Services\\ProjectsService.cs",
-              "RelativeToolTip": "TasksManager.API\\Services\\ProjectsService.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwEQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T01:55:35.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TasksService.cs",
-              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Services\\TasksService.cs",
-              "RelativeDocumentMoniker": "TasksManager.API\\Services\\TasksService.cs",
-              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Services\\TasksService.cs",
-              "RelativeToolTip": "TasksManager.API\\Services\\TasksService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwD4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T01:55:29.748Z",
+              "WhenOpened": "2024-09-09T19:50:36.083Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TasksRepository.cs",
-              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Repositories\\TasksRepository.cs",
-              "RelativeDocumentMoniker": "TasksManager.API\\Repositories\\TasksRepository.cs",
-              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Repositories\\TasksRepository.cs",
-              "RelativeToolTip": "TasksManager.API\\Repositories\\TasksRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "TasksManager.API\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T01:55:26.223Z",
+              "WhenOpened": "2024-09-12T19:58:28.994Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Services\\UserService.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Services\\UserService.cs",
+              "RelativeToolTip": "TasksManager.API\\Services\\UserService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T19:57:56.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\DTOs\\Login\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\DTOs\\Login\\LoginResponse.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\DTOs\\Login\\LoginResponse.cs",
+              "RelativeToolTip": "TasksManager.API\\DTOs\\Login\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T19:57:28.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "TasksManager.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T19:56:58.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Program.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Program.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Program.cs",
+              "RelativeToolTip": "TasksManager.API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T20:34:32.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITimeTrackerService.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Services\\Interfaces\\ITimeTrackerService.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Services\\Interfaces\\ITimeTrackerService.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Services\\Interfaces\\ITimeTrackerService.cs",
+              "RelativeToolTip": "TasksManager.API\\Services\\Interfaces\\ITimeTrackerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T20:24:42.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddTimeTrackerRequest.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\DTOs\\TimeTrackers\\AddTimeTrackerRequest.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\DTOs\\TimeTrackers\\AddTimeTrackerRequest.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\DTOs\\TimeTrackers\\AddTimeTrackerRequest.cs",
+              "RelativeToolTip": "TasksManager.API\\DTOs\\TimeTrackers\\AddTimeTrackerRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T20:17:05.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TimeTrackerMapping.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Mappings\\TimeTrackerMapping.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Mappings\\TimeTrackerMapping.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Mappings\\TimeTrackerMapping.cs",
+              "RelativeToolTip": "TasksManager.API\\Mappings\\TimeTrackerMapping.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA7wA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T20:10:59.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TimeTracker.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Models\\TimeTracker.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Models\\TimeTracker.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Models\\TimeTracker.cs",
+              "RelativeToolTip": "TasksManager.API\\Models\\TimeTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T20:10:39.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ITimeTrackerRepository.cs",
+              "DocumentMoniker": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Repositories\\Interfaces\\ITimeTrackerRepository.cs",
+              "RelativeDocumentMoniker": "TasksManager.API\\Repositories\\Interfaces\\ITimeTrackerRepository.cs",
+              "ToolTip": "C:\\edu\\projects\\TasksManager\\TasksManager.API\\Repositories\\Interfaces\\ITimeTrackerRepository.cs",
+              "RelativeToolTip": "TasksManager.API\\Repositories\\Interfaces\\ITimeTrackerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T18:17:22.309Z"
             }
           ]
         }

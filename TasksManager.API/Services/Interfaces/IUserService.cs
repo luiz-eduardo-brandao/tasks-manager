@@ -1,5 +1,4 @@
-using TasksManager.API.DTOs.Requests;
-using TasksManager.API.DTOs.Responses;
+using TasksManager.API.DTOs.Login;
 
 namespace TasksManager.API.Services.Interfaces
 {

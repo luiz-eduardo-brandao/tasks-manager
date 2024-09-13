@@ -187,6 +187,32 @@
   },
   {
     "ContainingType": "TasksManager.API.Controllers.TasksController",
+    "Method": "GetAllTasksByCollaborator",
+    "RelativePath": "tasks/{collaboratorId}/collaborator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "collaboratorId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TasksManager.API.DTOs.TaskDTO, TasksManager.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TasksManager.API.Controllers.TasksController",
     "Method": "GetTaskById",
     "RelativePath": "tasks/{id}",
     "HttpMethod": "GET",
@@ -228,6 +254,193 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TasksManager.API.Controllers.TasksController",
+    "Method": "GetAllTasksByProject",
+    "RelativePath": "tasks/{projectId}/project",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TasksManager.API.DTOs.TaskDTO, TasksManager.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TasksManager.API.Controllers.TimeTrackersController",
+    "Method": "GetAll",
+    "RelativePath": "time-trackers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TasksManager.API.DTOs.TimeTrackerDTO, TasksManager.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TasksManager.API.Controllers.TimeTrackersController",
+    "Method": "GetById",
+    "RelativePath": "time-trackers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TasksManager.API.DTOs.TimeTrackerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TasksManager.API.Controllers.TimeTrackersController",
+    "Method": "DeleteTracker",
+    "RelativePath": "time-trackers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TasksManager.API.Controllers.TimeTrackersController",
+    "Method": "AddTracker",
+    "RelativePath": "time-trackers/{timezone}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "timezone",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "TasksManager.API.DTOs.TimeTrackers.AddTimeTrackerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TasksManager.API.DTOs.TimeTrackerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TasksManager.API.Controllers.TimeTrackersController",
+    "Method": "UpdateTracker",
+    "RelativePath": "time-trackers/{timezone}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "timezone",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "TasksManager.API.DTOs.TimeTrackers.UpdateTimeTrackerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TasksManager.API.DTOs.TimeTrackerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TasksManager.API.Controllers.TimeTrackersController",
+    "Method": "StartTracker",
+    "RelativePath": "time-trackers/start/{timezone}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "timezone",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "TasksManager.API.DTOs.TimeTrackers.StartStopTrackerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TasksManager.API.Controllers.TimeTrackersController",
+    "Method": "StopTracker",
+    "RelativePath": "time-trackers/stop/{timeTrackerId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "timeTrackerId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TasksManager.API.Controllers.UsersController",
     "Method": "Post",
     "RelativePath": "users/login",
@@ -237,13 +450,13 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "TasksManager.API.DTOs.Requests.LoginRequest",
+        "Type": "TasksManager.API.DTOs.Login.LoginRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "TasksManager.API.DTOs.Responses.LoginResponse",
+        "Type": "TasksManager.API.DTOs.Login.LoginResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",

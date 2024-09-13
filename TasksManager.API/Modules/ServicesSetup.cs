@@ -21,6 +21,7 @@ namespace TasksManager.API.Modules
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IProjectsRepository, ProjectsRepository>();
             services.AddScoped<ITasksRepository, TasksRepository>();
+            services.AddScoped<ITimeTrackerRepository, TimeTrackerRepository>();
 
             return services;
         }
@@ -30,6 +31,7 @@ namespace TasksManager.API.Modules
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IProjectsService, ProjectsService>();
             services.AddScoped<ITasksService, TasksService>();
+            services.AddScoped<ITimeTrackerService, TimeTrackerService>();
 
             return services;
         }

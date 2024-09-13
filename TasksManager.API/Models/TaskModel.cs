@@ -27,9 +27,6 @@ namespace TasksManager.API.Models
         [ForeignKey("ProjectId")] 
         public Guid ProjectId { get; set; }
 
-        
-        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
-
         public List<TimeTracker> TimeTrackers { get; set; }
     }
 }

@@ -138,3 +138,6 @@ C:\edu\projects\TasksManager\TasksManager.API\obj\Debug\net8.0\TasksManager.API.
 C:\edu\projects\TasksManager\TasksManager.API\obj\Debug\net8.0\ref\TasksManager.API.dll
 C:\edu\projects\TasksManager\TasksManager.API\bin\Debug\net8.0\ApplicationSecretKeys.dll
 C:\edu\projects\TasksManager\TasksManager.API\bin\Debug\net8.0\ApplicationSecretKeys.pdb
+C:\edu\projects\TasksManager\TasksManager.API\bin\Debug\net8.0\FluentValidation.dll
+C:\edu\projects\TasksManager\TasksManager.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\edu\projects\TasksManager\TasksManager.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

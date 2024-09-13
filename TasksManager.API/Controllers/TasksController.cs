@@ -53,6 +53,42 @@ namespace TasksManager.API.Controllers
             }
         }
 
+        [HttpGet("{projectId}/project")]
+        public async Task<ActionResult<List<TaskDTO>>> GetAllTasksByProject(Guid projectId)
+        {
+            try
+            {
+                var tasks = await _tasksService.GetAllTasksByProject(projectId);
+
+                if (tasks == null)
+                    return NotFound();
+
+                return Ok(tasks);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("{collaboratorId}/collaborator")]
+        public async Task<ActionResult<List<TaskDTO>>> GetAllTasksByCollaborator(Guid collaboratorId)
+        {
+            try
+            {
+                var tasks = await _tasksService.GetAllTasksByCollaborator(collaboratorId);
+
+                if (tasks == null)
+                    return NotFound();
+
+                return Ok(tasks);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpPost]
         public async Task<ActionResult<TaskDTO>> AddTask([FromBody] AddTaskRequest request)
         {

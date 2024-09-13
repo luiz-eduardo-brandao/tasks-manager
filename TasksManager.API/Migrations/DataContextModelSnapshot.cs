@@ -58,11 +58,11 @@ namespace TasksManager.API.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("dfaeee36-623b-4ec5-af23-b15f4cf87b6d"),
-                            CreatedAt = new DateTime(2024, 9, 4, 15, 9, 45, 921, DateTimeKind.Utc).AddTicks(9988),
+                            Id = new Guid("5023590b-26eb-48bd-a7b8-9e452fb86975"),
+                            CreatedAt = new DateTime(2024, 9, 10, 20, 15, 52, 395, DateTimeKind.Utc).AddTicks(1453),
                             IsDeleted = false,
                             Name = "Edu Brandão",
-                            UserId = new Guid("4f3c7efd-fca5-4469-b0a0-bff6236c4040")
+                            UserId = new Guid("044f4a92-81b3-4038-8bd0-22a05edb91d6")
                         });
                 });
 
@@ -96,8 +96,8 @@ namespace TasksManager.API.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("9f2c6fbc-1bbb-48c1-9b53-c84e8b58cec9"),
-                            CreatedAt = new DateTime(2024, 9, 4, 15, 9, 45, 922, DateTimeKind.Utc).AddTicks(8),
+                            Id = new Guid("866d9c4c-ba09-4ba9-83ea-c2974c5f0066"),
+                            CreatedAt = new DateTime(2024, 9, 10, 20, 15, 52, 395, DateTimeKind.Utc).AddTicks(1479),
                             IsDeleted = false,
                             Name = "Projeto Validações"
                         });
@@ -142,30 +142,30 @@ namespace TasksManager.API.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("acd96614-b660-4a01-924d-3b464caa2ec3"),
-                            CreatedAt = new DateTime(2024, 9, 4, 15, 9, 45, 922, DateTimeKind.Utc).AddTicks(29),
+                            Id = new Guid("1ac1cfa0-5610-4838-8f05-5b764f67d2f9"),
+                            CreatedAt = new DateTime(2024, 9, 10, 20, 15, 52, 395, DateTimeKind.Utc).AddTicks(1501),
                             Description = "Levantamento de Requisitos da demanda",
                             IsDeleted = false,
                             Name = "Levantamento de Requisitos",
-                            ProjectId = new Guid("9f2c6fbc-1bbb-48c1-9b53-c84e8b58cec9")
+                            ProjectId = new Guid("866d9c4c-ba09-4ba9-83ea-c2974c5f0066")
                         },
                         new
                         {
-                            Id = new Guid("9d98439f-30b6-43fc-b302-a60fb3561657"),
-                            CreatedAt = new DateTime(2024, 9, 4, 15, 9, 45, 922, DateTimeKind.Utc).AddTicks(45),
+                            Id = new Guid("f12780c9-6480-46ce-8fb8-304c853691a7"),
+                            CreatedAt = new DateTime(2024, 9, 10, 20, 15, 52, 395, DateTimeKind.Utc).AddTicks(1523),
                             Description = "Analisando atividades da demanda",
                             IsDeleted = false,
                             Name = "Análise da demanada",
-                            ProjectId = new Guid("9f2c6fbc-1bbb-48c1-9b53-c84e8b58cec9")
+                            ProjectId = new Guid("866d9c4c-ba09-4ba9-83ea-c2974c5f0066")
                         },
                         new
                         {
-                            Id = new Guid("7138dcdc-8c23-463d-953e-e4289627833c"),
-                            CreatedAt = new DateTime(2024, 9, 4, 15, 9, 45, 922, DateTimeKind.Utc).AddTicks(63),
+                            Id = new Guid("a252cbb8-09ad-48c8-acbb-de1dd83c2bfa"),
+                            CreatedAt = new DateTime(2024, 9, 10, 20, 15, 52, 395, DateTimeKind.Utc).AddTicks(1545),
                             Description = "Desenvolver tela para cadastro de usuários",
                             IsDeleted = false,
                             Name = "Desenvolvimento atividade 1",
-                            ProjectId = new Guid("9f2c6fbc-1bbb-48c1-9b53-c84e8b58cec9")
+                            ProjectId = new Guid("866d9c4c-ba09-4ba9-83ea-c2974c5f0066")
                         });
                 });
 
@@ -184,20 +184,18 @@ namespace TasksManager.API.Migrations
                     b.Property<DateTime?>("DeletedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("EndDate")
+                    b.Property<DateTime?>("EndDate")
                         .HasColumnType("datetime2");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime>("StartDate")
+                    b.Property<DateTime?>("StartDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("TaskId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("TaskModelId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<Guid>("TaskModelId")
+                        .HasColumnType("uniqueidentifier")
+                        .HasColumnName("TaskId");
 
                     b.Property<string>("TimeZoneId")
                         .IsRequired()
@@ -251,11 +249,11 @@ namespace TasksManager.API.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("4f3c7efd-fca5-4469-b0a0-bff6236c4040"),
-                            CreatedAt = new DateTime(2024, 9, 4, 15, 9, 45, 921, DateTimeKind.Utc).AddTicks(9819),
+                            Id = new Guid("044f4a92-81b3-4038-8bd0-22a05edb91d6"),
+                            CreatedAt = new DateTime(2024, 9, 10, 20, 15, 52, 395, DateTimeKind.Utc).AddTicks(573),
                             IsDeleted = false,
-                            Password = "123@Test",
-                            UserName = "Edu Brandão"
+                            Password = "61da6cee5f5e9aae4f368ea36b169be83d9595bd",
+                            UserName = "edu"
                         });
                 });
 
@@ -287,7 +285,9 @@ namespace TasksManager.API.Migrations
 
                     b.HasOne("TasksManager.API.Models.TaskModel", null)
                         .WithMany("TimeTrackers")
-                        .HasForeignKey("TaskModelId");
+                        .HasForeignKey("TaskModelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("TasksManager.API.Models.Collaborator", b =>

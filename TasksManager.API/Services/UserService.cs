@@ -3,11 +3,11 @@ using System.Security.Claims;
 using ApplicationSecretKeys;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
-using TasksManager.API.DTOs.Requests;
-using TasksManager.API.DTOs.Responses;
 using TasksManager.API.Models;
 using TasksManager.API.Repositories.Interfaces;
 using TasksManager.API.Services.Interfaces;
+using TasksManager.API.DTOs.Login;
+using TasksManager.API.Helpers;
 
 namespace TasksManager.API.Services
 {
@@ -24,11 +24,7 @@ namespace TasksManager.API.Services
         {
             try
             {
-                // falta criptografar a senha
-                
-                string symmetricPassword = request.Password;
-
-                var user = await _userRepository.LogIn(request.UserName, symmetricPassword);
+                var user = await _userRepository.LogIn(request.UserName, request.Password.GenerateHash());
 
                 if (user == null)
                     return new LoginResponse 
@@ -77,7 +73,8 @@ namespace TasksManager.API.Services
             { 
                 Success = true,
                 ExpirationDate = expirationDateAccessToken,
-                AccessToken  = token
+                AccessToken  = token,
+                User = user
             };
         }
     }

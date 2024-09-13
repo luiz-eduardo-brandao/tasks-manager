@@ -1,7 +1,5 @@
-
 using TasksManager.API.DTOs;
 using TasksManager.API.DTOs.Projects;
-using TasksManager.API.DTOs.Requests;
 
 namespace TasksManager.API.Services.Interfaces
 {

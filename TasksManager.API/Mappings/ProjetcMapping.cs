@@ -1,6 +1,5 @@
 using TasksManager.API.DTOs;
 using TasksManager.API.DTOs.Projects;
-using TasksManager.API.DTOs.Requests;
 using TasksManager.API.Models;
 
 namespace TasksManager.API.Mappings

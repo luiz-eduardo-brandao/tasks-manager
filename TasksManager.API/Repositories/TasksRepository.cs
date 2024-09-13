@@ -14,43 +14,70 @@ namespace TasksManager.API.Repositories
             _context = context;
         }
 
-        public async Task<List<TaskModel>> GetAllTasks()
+        public async Task<List<TaskModel>> GetAllAsync()
         {
             var tasks = await _context.Tasks
-                .Include(p => p.TimeTrackers)
+                .Include(p => p.TimeTrackers.Where(t => !t.IsDeleted))
                 .Where(p => !p.IsDeleted)
                 .ToListAsync();
 
             return tasks;
         }
 
-        public async Task<TaskModel?> GetTaskById(Guid id)
+        public async Task<List<TaskModel>> GetAllTasksByProject(Guid projectId)
+        {
+            var tasks = await _context.Tasks
+              .Include(p => p.TimeTrackers.Where(t => !t.IsDeleted))
+              .Where(p => !p.IsDeleted && p.ProjectId == projectId)
+              .ToListAsync();
+
+            return tasks;
+        }
+        public async Task<List<TaskModel>> GetAllTasksByCollaborator(Guid id)
+        {
+            var tasks = await (from ta in _context.Tasks
+                         join ti in _context.TimeTrackers on ta.Id equals ti.TaskModelId
+                         where ti.CollaboratorId == id && ta.Id == ti.TaskModelId
+                         select new TaskModel
+                         {
+                             Id = ta.Id,
+                             ProjectId = ta.ProjectId,
+                             Name = ta.Name,
+                             Description = ta.Description,
+                             TimeTrackers = ta.TimeTrackers,
+                         })
+                        .ToListAsync();
+
+            return tasks;
+        }        
+
+        public async Task<TaskModel?> GetByIdAsync(Guid id)
         {
             var task = await _context.Tasks
-                .Include(p => p.TimeTrackers)
+                .Include(p => p.TimeTrackers.Where(t => !t.IsDeleted))
                 .Where(p => !p.IsDeleted)
                 .FirstOrDefaultAsync(p => p.Id == id);
 
             return task;
         }
 
-        public async Task<TaskModel?> AddTask(TaskModel task)
+        public async Task<TaskModel?> AddAsync(TaskModel task)
         {
             _context.Tasks.Add(task);
             await _context.SaveChangesAsync();
 
-            return await GetTaskById(task.Id);
+            return await GetByIdAsync(task.Id);
         }
 
-        public async Task<TaskModel?> UpdateTask(TaskModel task)
+        public async Task<TaskModel?> UpdateAsync(TaskModel task)
         {
             _context.Tasks.Update(task);
             await _context.SaveChangesAsync();
 
-            return await GetTaskById(task.Id);
+            return await GetByIdAsync(task.Id);
         }
 
-        public async Task DeleteTask(TaskModel task)
+        public async Task DeleteAsync(TaskModel task)
         {
             _context.Tasks.Update(task);
             await _context.SaveChangesAsync();

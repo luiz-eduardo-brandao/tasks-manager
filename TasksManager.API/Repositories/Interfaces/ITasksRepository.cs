@@ -1,13 +1,11 @@
 ﻿using TasksManager.API.Models;
+using TasksManager.API.Repositories.Interfaces.Base;
 
 namespace TasksManager.API.Repositories.Interfaces
 {
-    public interface ITasksRepository
+    public interface ITasksRepository : IRepositoryBase<TaskModel>
     {
-        public Task<List<TaskModel>> GetAllTasks();
-        public Task<TaskModel?> GetTaskById(Guid id);
-        public Task<TaskModel?> AddTask(TaskModel task);
-        public Task<TaskModel?> UpdateTask(TaskModel task);
-        public Task DeleteTask(TaskModel task);
+        public Task<List<TaskModel>> GetAllTasksByProject(Guid projectId);
+        public Task<List<TaskModel>> GetAllTasksByCollaborator(Guid id);
     }
 }

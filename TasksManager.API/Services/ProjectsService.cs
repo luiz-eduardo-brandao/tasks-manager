@@ -18,14 +18,14 @@ namespace TasksManager.API.Services
 
         public async Task<List<ProjectDTO>> GetAllProjects() 
         {
-            var projects = await _projectsRepository.GetAllProjects();
+            var projects = await _projectsRepository.GetAllAsync();
 
             return projects.ToProjectDTOList();
         }
 
         public async Task<ProjectDTO> GetProjectById(Guid id) 
         {
-            var project = await _projectsRepository.GetProjectById(id);
+            var project = await _projectsRepository.GetByIdAsync(id);
 
             if (project == null)
                 throw new ArgumentException("Projeto não encontrado");
@@ -37,7 +37,7 @@ namespace TasksManager.API.Services
         {
             var project = new Project(request.Name);
 
-            var newProject = await _projectsRepository.AddProject(project);
+            var newProject = await _projectsRepository.AddAsync(project);
 
             if (newProject == null)
                 throw new ArgumentException("Falha ao cadastrar projeto");
@@ -47,7 +47,7 @@ namespace TasksManager.API.Services
 
         public async Task<ProjectDTO> UpdateProject(UpdateProjectRequest request) 
         {
-            var project = await _projectsRepository.GetProjectById(request.Id);
+            var project = await _projectsRepository.GetByIdAsync(request.Id);
             
             if (project == null)
                 throw new ArgumentException("Este projeto não existe");
@@ -56,7 +56,7 @@ namespace TasksManager.API.Services
 
             projectUpdate.Update();
 
-            var result = await _projectsRepository.UpdateProject(projectUpdate);
+            var result = await _projectsRepository.UpdateAsync(projectUpdate);
 
             if (result == null)
                 throw new ArgumentException("Falha ao atualizar projeto");
@@ -66,14 +66,14 @@ namespace TasksManager.API.Services
 
         public async Task DeleteProject(Guid id) 
         {
-            var project = await _projectsRepository.GetProjectById(id);
+            var project = await _projectsRepository.GetByIdAsync(id);
 
             if (project is null)
                 throw new ArgumentNullException("Projeto não encontrado");
 
             project.Delete();
 
-            await _projectsRepository.DeleteProject(project);
+            await _projectsRepository.DeleteAsync(project);
         }
     }
 }

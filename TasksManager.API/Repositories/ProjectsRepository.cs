@@ -14,7 +14,7 @@ namespace TasksManager.API.Repositories
             _context = context;
         }
 
-        public async Task<List<Project>> GetAllProjects() 
+        public async Task<List<Project>> GetAllAsync() 
         {
             var projects = await _context.Projects
                 .Include(p => p.Tasks.Where(t => !t.IsDeleted))
@@ -24,7 +24,7 @@ namespace TasksManager.API.Repositories
             return projects;
         }
 
-        public async Task<Project?> GetProjectById(Guid id) 
+        public async Task<Project?> GetByIdAsync(Guid id) 
         {
             var project = await _context.Projects
                 .Include(p => p.Tasks.Where(t => !t.IsDeleted))
@@ -34,23 +34,23 @@ namespace TasksManager.API.Repositories
             return project;
         }
 
-        public async Task<Project?> AddProject(Project project) 
+        public async Task<Project?> AddAsync(Project project) 
         {
             _context.Projects.Add(project);
             await _context.SaveChangesAsync();
 
-            return await GetProjectById(project.Id);
+            return await GetByIdAsync(project.Id);
         }
 
-        public async Task<Project?> UpdateProject(Project project) 
+        public async Task<Project?> UpdateAsync(Project project) 
         {
             _context.Projects.Update(project);
             await _context.SaveChangesAsync();
 
-            return await GetProjectById(project.Id);
+            return await GetByIdAsync(project.Id);
         }
 
-        public async Task DeleteProject(Project project) 
+        public async Task DeleteAsync(Project project) 
         {
             _context.Projects.Update(project);
             await _context.SaveChangesAsync();

@@ -17,7 +17,7 @@ namespace TasksManager.API.Repositories
 
         public async Task<User?> LogIn(string userName, string password) 
         {   
-            return await _context.Users.FirstOrDefaultAsync(u => u.UserName == userName && u.Password == password);  
+            return await _context.Users.Include(u => u.Collaborator).FirstOrDefaultAsync(u => u.UserName == userName && u.Password == password);  
         }
     }
 }

@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using TasksManager.API.Helpers;
 using TasksManager.API.Models;
 
 namespace TasksManager.API.Data
@@ -21,8 +22,8 @@ namespace TasksManager.API.Data
             {
                 Id = userId,
                 CreatedAt = DateTime.UtcNow,
-                UserName = "Edu Brandão",
-                Password = "123@Test"
+                UserName = "edu",
+                Password = "123@Test".GenerateHash()
             });
             
             modelBuilder.Entity<Collaborator>().HasData(new Collaborator

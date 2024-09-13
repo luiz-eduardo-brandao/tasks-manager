@@ -1,5 +1,4 @@
 ﻿using TasksManager.API.DTOs;
-using TasksManager.API.DTOs.Projects;
 using TasksManager.API.DTOs.Tasks;
 using TasksManager.API.Models;
 
@@ -25,7 +24,8 @@ namespace TasksManager.API.Mappings
                 Id = task.Id,
                 ProjectId = task.ProjectId,
                 Name = task.Name,
-                Description = task.Description
+                Description = task.Description,
+                TimeTrackers = task.TimeTrackers?.ToTimeTrackerDTOList(),
             };
         }
 

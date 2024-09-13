@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using TasksManager.API.DTOs.Requests;
-using TasksManager.API.DTOs.Responses;
+using TasksManager.API.DTOs.Login;
 using TasksManager.API.Services.Interfaces;
 
 namespace TasksManager.API.Controllers
